@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0 0 30pt 0;
+    box-sizing: border-box;
+    border-radius: 100%;
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(222, 248, 239);
+
+}
+
+.header{
+    height: 130px;
+    padding: 20px;
+    border-radius: 0 0 9200px 0;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+    border-spacing: 2000px ;
+    border-color: black;
+    background-color: rgba(7, 246, 154, 0.912);
+    position: relative;
+    
+    
+}
+.navbar{
+    height: 100%;
+    display: flex;
+    justify-content: 1000;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 20px 10px 400px;
+    color: white;
+    font-size: xx-large;
+
+    
+    
+}
+.logo_sistema{
+    
+    margin: 10px 18px 0 0;
+    background-color: 0;
+    position: absolute;
+    border-color: black;
+    
+}
+
+
+.menú{
+    position: static;
+    height: 9px;
+    text-align: center;
+    margin: 0 40px 0 0;
+    left: 10px;
+    display: flex;
+}
+.Menú_lateral{
+    position: relative;
+    height: 10px;
+    top: 10%;
+    bottom: 100px;
+    border-radius: 10px 10px 10px 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 100%;
+    left: 100;
+    background: #fff;
+    width:  88pt;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px black;
+    padding: 0;
+    
+}
+label{
+    position: relative;
+    color: rgba(3, 80, 94, 0.912);
+    font-size: 17px;
+    display: flex;
+    width: 60pt;
+    padding: 10px;
+}
+.lateral{
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 10px;
+    font-size: 40px;
+    text-align: center;
+    padding: 0 0 20px 0 ;
+}
+.lateral_1{
+    position: absolute;
+    top: 40px;
+    margin-left: 40px;
+}
+
+
+a{
+    position: relative;
+    color: blue;
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+a:hover{
+    background: rgba(82, 232, 234, 0.627);
+    border-radius: 10px 10px 10px 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 9px 0 20px 0;
+
+}
+nav:hover{
+    width: 300px;
+    transition: all 0.5s ease;
+}

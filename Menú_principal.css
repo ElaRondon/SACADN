@@ -1,0 +1,127 @@
+@import url('file:///C:/Users/EYRA/Documents/Sistema/Fondos');
+:root{
+    --color_primario:rgba(7, 246, 154, 0.912); 
+   --color_blanco: white;
+    --altura_header: 120px;
+    --padding_left__right: 10rem;
+    --ancho__maximo: 2200px;
+    
+}
+*{
+    
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+}
+
+body{
+background-color: rgb(243, 227, 202);
+}
+nav{
+    position: absolute;
+    top: 0;
+    bottom:  0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+     width: 90px;
+     overflow: hidden;
+     transition: with 0.2s linear;
+     box-shadow: 0 20px 35px rgb(0, 0, 0, 1);
+}
+.menu_lateral{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    height: 100%;
+    left: 10;
+    background: #fff;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px black;
+}
+.header{
+    height: var(--altura_header);
+    background-color: var(--color_primario);
+    position: relative;
+   
+}
+.logo_sitema{
+    margin: 0 18px 0 0;
+    background-color: var(--color_blanco);
+   
+}
+.navbar{
+    height: 100%;
+    display: flex;
+    justify-content: 1000;
+    align-items: center;
+    padding: 0 var(--padding_left__right);
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+    
+}
+.logo_span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a{
+    position: relative;
+    color: rgba(85, 83, 83);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 14px;
+}.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+a:hover{
+    background: #eee;
+}
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+button{
+    width: 50%;
+    height: 47px;
+    border-radius: 0px;
+    background: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .4s;  
+}
+button:hover{
+    transform: scale(1.1);
+    opacity: .9;
+    background-color: rgba(80, 232, 252, 0.897);
+}
+/*.label{
+   background: url(IMG-logo-copia.png);
+}*/
+
